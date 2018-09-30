@@ -1,0 +1,33 @@
+<%-- 
+    Document   : frame3
+    Created on : 2 Jun, 2016, 9:43:55 AM
+    Author     : SAI
+--%>
+
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>Authentication</title>
+    </head>
+    <body>
+        <h1 style="font-family: serif;font-style: italic">Welcome!</h1>
+        <h3 style="font-family: serif;font-style: italic">About the project</h3>
+             <h4> <p>We are implementing Pair based authentication system in which at the time of registration
+                the user has to provide all his details along with the password known as secret pass.
+                The secret pass has to be not more than 8 digits long and should contain even no of characters.
+                During login phase, the user has to enter his username and the session password. Session
+                passwords are generated based on this secret pass. During the login phase, when the user enters
+                his username an interface consisting of a grid is displayed. The grid is of size 6 x 6 and it
+                consists of alphabets and numbers. These are randomly placed on the grid and the interface
+                changes every time. User has to enter the password depending upon the secret pass. User has to 
+                consider his secret pass in terms of pairs. The session password consists of alphabets and digits.
+                The first letter in the pair is used to select the row and the second letter is used to select the column. 
+                The intersection letter is part of the session password. This is repeated for all pairs of
+                secret pass. The password entered by the user is verified by the server to authenticate the user. If the password is correct,
+                the user is allowed to enter in to the system. The grid size can be increased to include special
+                characters in the password.
+            </p></h4>
+    </body>
+</html>
